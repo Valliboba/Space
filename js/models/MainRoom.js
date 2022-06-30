@@ -8,7 +8,7 @@ export default class MainRoom {
     build(gltf, scene) {
         gltf.scene.traverse(child => {
           child.frustumCulled = false;
-
+        
           switch(child.name) {
             case 'walls':
               initWalls(child)

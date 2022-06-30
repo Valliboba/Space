@@ -13,8 +13,8 @@ function createPlayer() {
   })
   player = new THREE.Mesh(geometry, material)
   player.name = 'player'
-  geometry.translate(0, 1, 0)
-  player.position.set(-27, 0.3, 0)
+  player.position.set(-21.148, 0.3, 4)
+  player.rotateY(-7.86)
   //scene.add(player)
 }
 
