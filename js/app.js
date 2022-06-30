@@ -22,6 +22,8 @@ async function init() {
   await loadObject()
   await render()
 
+  
+
 }
 
 /// loading 3D objects pipeline
